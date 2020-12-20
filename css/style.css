@@ -7,7 +7,7 @@
  body {
      color: #666666;
      font-size: 14px;
-     font-family: 'poppins', sans-serif;
+     font-family: 'poppins';
      line-height: 1.80857;
      font-weight: normal;
 }
@@ -258,7 +258,7 @@
 /*--------------------------------------------------------------------- header ---------------------------------------------------------------------*/
  header {
      min-height: 90px;
-     background: #212020;
+     background: #808000;
      padding: 15px 0;
      position: fixed;
      width: 100%;
@@ -325,9 +325,14 @@
      background: transparent;
 }
  .slider_section {
-     background: #212020;
-     min-height: 100vh;
-     padding-top: 93px;
+     background:url('/images/ayur.jpg') center  no-repeat;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
 }
 /** slider section **/
  #main_slider {
@@ -363,7 +368,7 @@
 }
  .slider_cont p {
      font-size: 18px;
-     color: #999;
+     color:white;
      line-height: normal;
      font-weight: 300;
      margin-top: 15px;
@@ -410,7 +415,7 @@
      color: #f8c90d !important;
 }
 .resip_section {
-    background: #212020;
+    background: #DAA520;
     margin-top: 0;
     padding: 60px 0px 50px 0px;
     border-top: solid rgba(255,255,255,.1) 1px;
@@ -500,7 +505,7 @@
     padding-top: 90px;
 }
  .about .about_box {
-    background: #191918;
+    background: #808000;
      padding: 55px 40px;
 }
  .about .about_box h3 {
@@ -1060,3 +1065,13 @@
    .hover-shadow:hover {
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
+/* map */
+.map{
+     width: 100%;
+    height: 500px;
+}
+ @media screen and (max-width:500px){
+     .map{
+          width:100%
+     }
+ }
