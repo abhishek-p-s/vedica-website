@@ -1,8 +1,6 @@
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
- @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
- @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
- @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+ 
 /*--------------------------------------------------------------------- basic ---------------------------------------------------------------------*/
  body {
      color: #666666;
@@ -331,7 +329,6 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
      object-fit: contain;
 }
 /** slider section **/
@@ -503,6 +500,8 @@
 /** about **/
  .about {
     padding-top: 90px;
+    background-color:#F0E68C;
+    
 }
  .about .about_box {
     background: #808000;
@@ -511,7 +510,7 @@
  .about .about_box h3 {
      font-size: 30px;
      line-height: 28px;
-     color: #fff;
+     color: #F0E68C;
      font-weight: 500;
      padding: 0;
 }
@@ -662,6 +661,7 @@
  .main_form {
      padding-top: 30px;
      padding-left: 223px;
+     border: 0px;
 }
  .form-control {
      border: #fff solid 2px;
@@ -695,7 +695,7 @@
      font-size: 18px;
 }
  .send:hover {
-     background: #000;
+     background: green;
      color: #fff;
 }
  .footer .img-box {
