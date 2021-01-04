@@ -705,10 +705,10 @@ body {
  .footer_logo {
      margin-top: 40px;
      text-align: center;
-     border-bottom: #ddd solid 1px;
      padding-bottom: 15px;
      margin-bottom: 15px;
      margin-left: 44rem;
+    
 }
  ul.lik {
     text-align: center;
