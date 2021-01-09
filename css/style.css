@@ -331,7 +331,10 @@ body {
      flex-direction: column;
      align-items: center;
      object-fit: contain;
+     filter: brightness(-5);
+     
 }
+
 /** slider section **/
  #main_slider {
      padding: 90px 0 30px;
