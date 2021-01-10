@@ -454,6 +454,8 @@ header .container-fluid {
     padding-left: 190px;
     float: left;
     margin: 100px 0 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .slider_cont h3 {
@@ -1360,6 +1362,7 @@ img.hover-shadow {
         padding-left: 0px;
         float: left;
         margin: 100px 0 0;
+        font-size: 14px;
     }
     .slider_section {
         height: 100vh;
