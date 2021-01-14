@@ -805,7 +805,7 @@
                 
                 .main_form {
                     padding-top: 30px;
-                    padding-left: 223px;
+                    padding-left: 25%;
                     border: 0px;
                 }
                 
@@ -1387,10 +1387,6 @@
                         margin-right: 0px;
                         padding: 91px 7px 14px 22px;
                         margin-right: 40px;
-                    }
-                    .map {
-                        width: 2rem;
-                        height: 5rem;
                     }
                 }
                 /* tablet */
